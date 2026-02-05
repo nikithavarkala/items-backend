@@ -4,10 +4,10 @@ A simple Spring Boot REST API for managing items (similar to ecommerce products)
 Built to demonstrate clean REST design, validation, and exception handling.
 
 ## Tech Stack
-- Language: Java 21
-- Framework: Spring Boot 4.x
-- Utilities: Spring Web, Lombok, Jakarta Validation
-- Build Tool: Maven
+- **Language:** Java 21
+- **Framework:** Spring Boot 4.x
+- **Utilities:** Spring Web, Lombok, Jakarta Validation
+- **Build Tool:** Maven
 
 ## Features
 - Create a new item
@@ -45,7 +45,7 @@ Response:
   - 200 OK – Item found
   - 404 Not Found – Item does not exist with Id ${id}
 
-### 📄Get All Items
+### 📄 Get All Items
   **GET**
   `/api/items`
   
