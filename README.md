@@ -40,14 +40,14 @@ Response:
 GET /api/items/{id}
 
 Response:
-  200 OK – Item found
-  404 Not Found – Item does not exist with Id ${id}
+-200 OK – Item found
+-404 Not Found – Item does not exist with Id ${id}
 
 - Get All Items
-GET /api/items
+-GET /api/items
 
 Response:
-  200 OK – List of all items
+-200 OK – List of all items
 
 ## How to Run
 1. Clone the repository
