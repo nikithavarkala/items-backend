@@ -17,37 +17,40 @@ Built to demonstrate clean REST design, validation, and exception handling.
 - Global exception handling using @RestControllerAdvice
 - In-memory data storage using ArrayList
 
-## API Endpoints
+## 📌 API Endpoints
 
-- Create Item
-POST /api/items
+### ➕ Create Item
+**POST** 
+`/api/items`
 
 Request Body:
-json
-{
-  "name": "Laptop",
-  "description": "Gaming Laptop",
-  "price": 1200.0,
-  "quantity": 10,
-  "category": "Electronics"
-}
+`json
+  {
+    "name": "Laptop",
+    "description": "Gaming Laptop",
+    "price": 1200.0,
+    "quantity": 10,
+    "category": "Electronics"
+  }`
 
 Response:
-201 Created – Item successfully created
-400 Bad Request – Validation errors
+ - 201 Created – Item successfully created
+ - 400 Bad Request – Validation errors
 
-- Get Item by ID
-GET /api/items/{id}
+###🔍 Get Item by ID
+**GET** 
+`/api/items/{id}`
 
-Response:
-200 OK – Item found
-404 Not Found – Item does not exist with Id ${id}
+  Response:
+  - 200 OK – Item found
+  - 404 Not Found – Item does not exist with Id ${id}
 
-- Get All Items
-GET /api/items
-
-Response:
-200 OK – List of all items
+### 📄Get All Items
+  **GET**
+  `/api/items`
+  
+  Response:
+   - 200 OK – List of all items
 
 ## How to Run
 1. Clone the repository
