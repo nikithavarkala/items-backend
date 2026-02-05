@@ -20,7 +20,7 @@ Built to demonstrate clean REST design, validation, and exception handling.
 ## API Endpoints
 
 - Create Item
-POST /api/items
+-POST /api/items
 
 Request Body:
 json
