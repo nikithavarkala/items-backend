@@ -37,7 +37,7 @@ Response:
  - 201 Created – Item successfully created
  - 400 Bad Request – Validation errors
 
-###🔍 Get Item by ID
+### 🔍 Get Item by ID
 **GET** 
 `/api/items/{id}`
 
