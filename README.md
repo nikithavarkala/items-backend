@@ -14,8 +14,8 @@ Built to demonstrate clean REST design, validation, and exception handling.
 - Retrieve item by ID
 - Retrieve all items
 - Request validation with meaningful error messages
-- Global exception handling using @RestControllerAdvice
-- In-memory data storage using ArrayList
+- Global exception handling using `@RestControllerAdvice`
+- In-memory data storage using `ArrayList`
 
 ## 📌 API Endpoints
 
